@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 15px;
+    font-family: 'Poppins','Helvetica','Arial','Lucida','sans-serif';
+    line-height: 1.2;
+    font-weight: 600
+}
+body{
+   background-color: #1a1a1a;
+    max-width: 100vw;
+    margin: 0 auto;
+}
+#body-heard{
+    max-width: 1140px;
+    background-color: rgb(12, 0, 0);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+
+}
+div#heard{
+    margin-top:22px;
+    display: flex;
+    width:100% ;
+    align-items: center;
+    height: 100px;
+}
+div#heard-logo{
+    margin-right: 100px;
+    height: 100px;
+}
+div#heard>div#heard-conten{
+    display: flex;
+}
+#heard-imgLogo{
+    width: 120px;
+}
+#clead{
+    clear: inherit;
+}
+div#heard-conten{
+    display: flex;
+    width: 100%;
+    height: 60px;
+}
+div.heard-directional{
+    width: calc(100%/7);
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 18px;
+    color: rgb(255,255,255);
+    line-height: 60px;
+    cursor :pointer;
+    margin-right: 10px;
+}
+div.heard-directional>span{
+    width: 100%;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+
+}
+div.heard-directional>p{
+    width: 100%;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+
+}
+
+div.heard-directional>span:hover{
+    background-color: rgb(69, 66, 66);
+    border-bottom: 5px #fb9c2c ridge ;
+
+}
+div#utiled-mig{
+
+    margin: 0 auto;
+    max-width: 1140px;
+    display: flex;
+    background-color: #1a1a1a;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    box-sizing: border-box;
+}
