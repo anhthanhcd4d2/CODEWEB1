@@ -80,10 +80,8 @@ div.heard-directional>p{
 div.heard-directional>span:hover{
     background-color: rgb(69, 66, 66);
     border-bottom: 5px #fb9c2c ridge ;
-
 }
 div#utiled-mig{
-
     margin: 0 auto;
     max-width: 1140px;
     display: flex;
@@ -92,4 +90,27 @@ div#utiled-mig{
     justify-content: center;
     height: 600px;
     box-sizing: border-box;
+}
+div.brand-logo{
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    padding-right: 30px;
+    margin: 30px;
+    animation: next1 7s linear infinite;
+}
+div#next-brand{
+    display: flex;
+    overflow-x: auto;
+}
+@keyframes next1 {
+    0%{
+        left: 0;
+    }
+    50%{
+        left:-750px;
+    }
+    100%{
+        left: 0;
+    }
 }

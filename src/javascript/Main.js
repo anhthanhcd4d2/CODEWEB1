@@ -56,7 +56,6 @@ In 2021, Alien Shooter: Galaxy Attack has reached 150M installs and ranked #1 in
     name(x);
 })();
 
-
 (function () {
     let div3leve=document.querySelector("div#div3");
     div3leve.setAttribute("style", `width:100vw; background-color:#fb9c2c;padding: 80px 0;`);
